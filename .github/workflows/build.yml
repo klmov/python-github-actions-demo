@@ -25,3 +25,7 @@ jobs:
     
     - name: Run Script
       run: python ./main.py add 2 3
+    
+    - name: Run Python unit tests
+      run: python3 -u -m unittest tests/tests.py
+  
