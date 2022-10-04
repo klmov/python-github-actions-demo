@@ -28,4 +28,4 @@ class TestCalc(unittest.TestCase) :
         assert calc.div(6, 3) == 2
 
     def test_div_2(self):
-        assert calc.div(9, 1) == 1
+        assert calc.div(9, 1) == 9
